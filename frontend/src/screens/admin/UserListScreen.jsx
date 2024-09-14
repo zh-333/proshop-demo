@@ -8,7 +8,6 @@ import {
   useGetUsersQuery,
 } from '../../slices/usersApiSlice';
 import { toast } from 'react-toastify';
-//import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const UserListScreen = () => {
@@ -66,8 +65,6 @@ const UserListScreen = () => {
                 <td>
                     <LinkContainer to={`/admin/user/${user._id}/edit`}>
                       <Button
-                        // as={Link}         
-                        // style={{ marginRight: '10px' }}
                         variant='light'
                         className='btn-sm'
                       >
