@@ -8,7 +8,7 @@ import {
   useGetUsersQuery,
 } from '../../slices/usersApiSlice';
 import { toast } from 'react-toastify';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const UserListScreen = () => {
